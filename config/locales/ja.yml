@@ -1,6 +1,8 @@
 ja:
   l_title: "Rails tutorialのサンプルアプリ"
   h_title: "サンプルアプリ"
+  c_en: "英語"
+  c_ja: "日本語"
   greetings: "こんにちはゲスト"
   btn_home: "ホーム"
   help: "サポート"
@@ -15,6 +17,6 @@ ja:
   help_p4: "Ruby on Rails Tutorialの本"
   date:
     formats:
-      default: "%Y-%m-%d"
-      short: "%b %d"
+      Default: "%Y-%m-%d"
+      Short: "%b %d"
       
