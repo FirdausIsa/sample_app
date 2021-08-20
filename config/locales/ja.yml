@@ -1,0 +1,20 @@
+ja:
+  l_title: "Rails tutorialのサンプルアプリ"
+  h_title: "サンプルアプリ"
+  greetings: "こんにちはゲスト"
+  btn_home: "ホーム"
+  help: "サポート"
+  log_in: "ログイン"
+  p_1: "これは"
+  p_2: "Ruby on Railsの練習"
+  p_3: "のサンプルアプリです。"
+  base_title: "Ruby on Rails Tutorialのサンプルアプリ"
+  help_p1: "でRuby on Rails Tutorialのサポートもらいます。"
+  help_p2: "Rails Tutorialのサポートページ"
+  help_p3: "サンプルアプリのサポートを取得ために、を見ます。"
+  help_p4: "Ruby on Rails Tutorialの本"
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      short: "%b %d"
+      
