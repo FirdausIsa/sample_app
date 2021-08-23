@@ -1,10 +1,10 @@
 ja:
   l_title: "Rails tutorialのサンプルアプリ"
   h_title: "サンプルアプリ"
-  c_en: "英語"
+  c_en: "English"
   c_ja: "日本語"
   greetings: "こんにちはゲスト"
-  btn_home: "ホーム"
+  home: "ホーム"
   help: "サポート"
   log_in: "ログイン"
   p_1: "これは"
