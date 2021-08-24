@@ -7,6 +7,8 @@ ja:
   home: "ホーム"
   help: "サポート"
   log_in: "ログイン"
+  log_out: "ログアウト"
+
   p_1: "これは"
   p_2: "Ruby on Railsの練習"
   p_3: "のサンプルアプリです。"
@@ -15,8 +17,23 @@ ja:
   help_p2: "Rails Tutorialのサポートページ"
   help_p3: "サンプルアプリのサポートを取得ために、を見ます。"
   help_p4: "Ruby on Rails Tutorialの本"
+
   date:
     formats:
       Default: "%Y-%m-%d"
       Short: "%b %d"
+
+  sign_up: "サインアップ"
+  name: "名前"
+  email: "Eメール"
+  password: "パスワード"
+  confirmation: "パスワードを確認"
+  create_my_account: "アカウントを作成"
+  the_form_contains: "このフォームには"
+  error: "エラー!"
+  welcome: "ようこそ!"
+  users: "ユーザー"
+  account: "アカウント"
+  profile: "プロフィール"
+  settings: "設定"
       
