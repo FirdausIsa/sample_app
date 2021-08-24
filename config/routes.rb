@@ -4,6 +4,9 @@ Rails.application.routes.draw do
     resources :posts
     root 'static_pages#home', as: "home" 
     get 'static_pages/help', as: "help"
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+    get "/signup", to: "users#new"
+    post "/signup", to: "users#create"
+    resources :users, only: %i(:new, :create, :show)
   end
 end
