@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     get 'home/index'
     resources :posts
@@ -7,6 +8,10 @@ Rails.application.routes.draw do
 
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
-    resources :users, only: %i(:new, :create, :show)
+    resources :users    # only: %i(:new, :create, :show)
+
+    get "/login", to: "sessions#new"
+    post "/login", to: "sessions#create"
+    delete "/logout", to: "sessions#destroy"
   end
 end

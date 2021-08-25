@@ -1,12 +1,15 @@
 ja:
   l_title: "Rails tutorialのサンプルアプリ"
   h_title: "サンプルアプリ"
+
   c_en: "English"
   c_ja: "日本語"
+
   greetings: "こんにちはゲスト"
   home: "ホーム"
   help: "サポート"
   log_in: "ログイン"
+
   p_1: "これは"
   p_2: "Ruby on Railsの練習"
   p_3: "のサンプルアプリです。"
@@ -15,17 +18,28 @@ ja:
   help_p2: "Rails Tutorialのサポートページ"
   help_p3: "サンプルアプリのサポートを取得ために、を見ます。"
   help_p4: "Ruby on Rails Tutorialの本"
+
   date:
     formats:
       Default: "%Y-%m-%d"
       Short: "%b %d"
+   
+  new_user: "新しいユーザー?"
   sign_up: "サインアップ"
   name: "名前"
   email: "Eメール"
   password: "パスワード"
   confirmation: "パスワードを確認"
   create_my_account: "アカウントを作成"
+
+  account: "アカウント"
+  profile: "プロフィール"
+  users: "ユーザー"
+  settings: "設定"
+  log_out: "ログアウト"
+
   the_form_contains: "このフォームには"
   error: "エラー!"
-  welcome: "ようこそ!"
+  welcome: "ようこそサンプルアプリへ!"
+  invalid_email_password: "メールアドレスまたはパスワードを間違います"
       
