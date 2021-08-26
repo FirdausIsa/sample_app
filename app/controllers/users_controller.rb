@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :laod_user, only: :show
+  before_action :load_user, only: :show
 
   def show; end
 
@@ -10,6 +10,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)  # Not the final implementation!
     if @user.save
+      log_in @user
       flash[:success] = t(:welcome)
       redirect_to users_new_url(@user)
     else
