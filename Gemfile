@@ -15,6 +15,9 @@ gem "bootsnap", ">= 1.4.4", require: false
 gem "bcrypt", "~> 3.1.11"
 gem "jquery-rails"
 
+gem "will_paginate", git: "https://github.com/mislav/will_paginate.git", branch: "master"
+gem "bootstrap-will_paginate", "1.0.0"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -24,6 +27,7 @@ group :development do
   gem "rack-mini-profiler", "~> 2.0"
   gem "listen", "~> 3.3"
   gem "spring"
+  gem "faker"
 end
 
 group :test do
