@@ -67,3 +67,21 @@ en:
   account: "Account"
   profile: "Profile"
   settings: "Settings"
+
+  edit_user: "Edit user"
+  save_changes: "Save changes"
+  update_profile: "Update your profile"
+  p_confirmation: "Password Confirmation"
+  pls_log_in: "Please log in."
+  profile_updated: "Profile updated"
+  user_deleted: "User deleted"
+  delete_fail: "Delete fail!"
+  n_authorized: "You are not authorized"
+
+  info: "Please check your email to activate your account."
+  w_activate_acc: "Welcome to the Sample App! Click on the link below to activate your
+account: "
+  hi: "Hi,"
+  activated: "Account activated!"
+  invalid_link: "Invalid activation link"
+  not_activated: "Account not activated. Check you email for the activation link."
