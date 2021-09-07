@@ -15,5 +15,8 @@ Rails.application.routes.draw do
 
     get "/users", to: "users#index"
     resources :users, only: %i(new create show destroy edit update)
+
+    #get "/account_activations", to: "account_activations#edit"
+    resources :account_activations, only: [:edit]
   end
 end
