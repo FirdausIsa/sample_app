@@ -54,3 +54,22 @@ ja:
   activated: "アカウントが有効になりました！"
   invalid_link: "無効なアクティベーションリンク"
   not_activated: "アカウントがアクティブ化されていません。アクティベーションリンクについては、メールを確認してください。"
+  exp_reset_password: "パスワードのリセットが期限切れになりました。"
+  ins_reset_password: "パスワードのリセット手順が記載されたメール"
+  not_found_e_address: "メールアドレスが見つかりません"
+  empty_password: "空にすることはできません"
+  reset_password: "パスワードがリセットされました。"
+  
+  forgot_password: "パスワードをお忘れですか"
+  exp_reset_password: "パスワードのリセットが期限切れになりました。"
+  ins_reset_password: "パスワードのリセット手順が記載されたメール"
+  not_found_e_address: "メールアドレスが見つかりません"
+  empty_password: "空にすることはできません"
+  reset_password: "パスワードがリセットされました。"
+  mail_activation_acc: "アカウント開設"
+  mail_reset_password: "パスワードのリセット"
+
+  to_reset_pwd: "パスワードをリセットするには、以下のリンクをクリックしてください。"
+  link_expire: "このリンクは2時間で期限切れになります。"
+  if_not_reset: "パスワードのリセットをリクエストしなかった場合は、このメールを無視してください。パスワードはそのまま残ります。
+です。"
