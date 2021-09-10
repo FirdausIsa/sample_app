@@ -54,6 +54,30 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def logged_in_user
+    unless logged_in?
+      store_location
+      flash[:danger] = t(:pls_log_in)
+      redirect_to login_url
+    end
+  end
+
+  def following
+    @title = "Following"
+    @user = User.find_by(id: params[:id])
+    @users = @user.following.paginate(page: params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = "Followers"
+    @user = User.find_by(id: params[:id])
+    @users = @user.followers.paginate(page: params[:page])
+    render "show_follow"
+  end
+
+  private
+
   def user_params
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
@@ -64,14 +88,6 @@ class UsersController < ApplicationController
 
     flash[:error] = t(:error)
     redirect_to root_path
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t(:pls_log_in)
-      redirect_to login_url
-    end
   end
 
   def correct_user
